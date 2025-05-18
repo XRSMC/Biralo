@@ -6,7 +6,7 @@ python3 -m http.server 8080 &
 # Start sshx session in the background
 echo "=============================="
 echo "Starting sshx session..."
-sshx serve &
+sshx &
 
 # Keep service running forever
 while true; do
